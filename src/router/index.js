@@ -1,11 +1,12 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "../components/App.vue";
+import GisApp from '@/components/App'
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "GisApp",
+    component: GisApp
   },
   {
     path: "/about",
